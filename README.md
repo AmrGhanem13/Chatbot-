@@ -36,6 +36,20 @@ pip install streamlit fastapi uvicorn python-dotenv together
 - ├── requirements.txt    # Dependencies
 - └── README.md           # Documentation
 
+## 🛠️ Run the App
+
+- Start the FastAPI backend using Uvicorn:
+
+```bash
+uvicorn fast:app --reload
+```
+
+- Then in a new terminal, run the Streamlit frontend:
+
+```bash
+streamlit run app.py
+```
+
 ## 👨‍💻 Author
 Amr Ghanem
 - |Software Engineer | Data Scientist & AI Developer
